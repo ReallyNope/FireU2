@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Organize Your Time">
+        <menu>
+            <item
+                android:id="@+id/alarm"
+                android:icon="@drawable/ic_event_note_black_24dp"
+                android:title="Alarm" />
+            <item
+                android:id="@+id/calendar"
+                android:icon="@drawable/ic_add_circle_black_24dp"
+                android:title="Calendar" />
+            <item
+                android:id="@+id/Events"
+                android:icon="@drawable/ic_event_available_black_24dp"
+                android:title="Events" />
+        </menu>
+    </item>
+
+    <item android:title="Logout">
+        <menu>
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/ic_vpn_key_black_24dp"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

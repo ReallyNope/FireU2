@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context="net.myapp.Organize4U.ChatActivity"
+   >
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar4"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@color/yellow"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+        <com.blogspot.atifsoftwares.circularimageview.CircularImageView
+            android:id="@+id/profileTV"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+
+            android:src="@drawable/ic_default_img_violet" />
+
+
+        <TextView
+            android:id="@+id/nameTV"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="name"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/userStatusTV"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+
+            android:textStyle="bold" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/chat_recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar4"
+        android:layout_alignParentBottom="true"
+
+
+        android:layout_marginBottom="55dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/messageEt"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textCapSentences|textMultiLine"
+            android:background="@color/yellow"
+            android:hint="Start Typing"
+            android:padding="15dp"/>
+        <ImageButton
+            android:id="@+id/sendBtn"
+          android:background="@color/yellow"
+            android:src="@drawable/ic_send_black_24dp"
+            android:layout_width="50dp"
+            android:layout_height="54dp"/>
+
+
+    </LinearLayout>
+</RelativeLayout>
