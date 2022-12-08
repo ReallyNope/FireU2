@@ -5,7 +5,7 @@ Short description: The application has many activities supporting time managemen
 
 Programing Language: Java  
 
-Used technologies and tools: Firebase, Google Analystics, Robotest  
+Used technologies and tools: Firebase Platform, Google Analystics, Robotest, Android Studio, Cloud Firestore, Test Lab, Firebase Performance Monitoring, Cloud Storage, Firebase Authentication, Vonage  
 
 Screens from app activities:  
 
