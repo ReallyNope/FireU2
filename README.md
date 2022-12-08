@@ -5,6 +5,8 @@ Short description: The application has many activities supporting time managemen
 
 Programing Language: Java  
 
+Requirements: Phone with Android(min SDK 23 - Android 6.0 Marshallow)
+
 Used technologies and tools: Firebase Platform, Google Analystics, Robotest, Android Studio, Cloud Firestore, Test Lab, Firebase Performance Monitoring, Cloud Storage, Firebase Authentication, Vonage  
 
 Screens from app activities:  
