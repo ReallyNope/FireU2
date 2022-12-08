@@ -1,8 +1,10 @@
 # organize4U2
-App-name: Organize4U
+App-name: Organize4U  
+Short description: The application has many activities supporting time management - video calls, chat, creating and editing a profile, saving notes in the cloud, editing and deleting them, alarm, events, calendar.  
 Programing Language: Java  
-Screens:  
-![Alt text](/app/1.png?raw=true "Notes Activity")  
+Used technologies and tools: Firebase, Google Analystics, Robotest  
+Screens from app activities:  
+![Notes Activity](/app/1.png?raw=true "Notes Activity")  
 ![Alt text](/app/2.png?raw=true "Notes Activity")  
 ![Alt text](/app/3.png?raw=true "Notes Activity")  
 ![Alt text](/app/4.png?raw=true "Notes Activity")  
